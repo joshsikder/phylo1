@@ -1,20 +1,6 @@
 import msprime, newick
 from IPython.display import SVG, display
 
-def simpleTree(numSamp): 
-    tree = msprime.sim_ancestry(numSamp)
-    return tree
-
-def simplePopulations(N, samples):
-    demography = msprime.Demography.stepping_stone_model([100]*N, migration_rate=0.1, boundaries=True)
-    tree = msprime.sim_ancestry({0: samples, N-1: samples}, demography=demography)
-    return tree
-
-def speciesTree(ploidy, seqlength):
-    demography = msprime.Demography.from_species_tree("(((human:5.6,chimpanzee:5.6):3.0,gorilla:8.6):9.4,orangutan:18.0)",time_units="myr",initial_size=10**4,generation_time=20)
-    tree = msprime.sim_ancestry({"gorilla": 2, "human": 4}, demography=demography, ploidy=ploidy, sequence_length=seqlength)
-    return tree
-
 def firstSim(seqlength):
     time_units = 1000/25 # kya -> generations
     demo1 = msprime.Demography()
@@ -36,11 +22,11 @@ def firstSim(seqlength):
         record_migrations=True,
         random_seed=123456
     )
-    print(f"Simulation of {sequence_length/10**3}Kb run, using record_migrations=True")
+    print(f"Simulation of {seqlength/10**3}Kb run, using record_migrations=True")
     print(
         "NB: time diff from Neanderthal split to admixture event is",
         f"{300 * time_units - 50 * time_units:.0f} gens",
-        f"({(300 * time_units - 50 * time_units) / 2 / Ne} coalescence units)"
+        f"({(300 * time_units - 50 * time_units) / 2 / N} coalescence units)"
     )
     return ts
 
