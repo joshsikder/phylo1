@@ -1,5 +1,3 @@
-#hello
-
 import msprime, newick
 from IPython.display import SVG, display
 
