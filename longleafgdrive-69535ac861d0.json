@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "longleafgdrive",
+  "private_key_id": "69535ac861d0863289a1fc97c43a77dd271a50d1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCfj+8kAoCt5aHt\nAB799sbiMGBY9DPZCTXS97sekjvYweUye2TR256qb2SxbEi90mXUMAC7fsbAsdMA\ngiVg2BLfAQsVWDdR3Fs6FRIwE4vcyBHe4vwT8AE+Mf5hNMKRX+jAXziDJOQ20o6d\nluf6xzUGzYe+m3dYD+oriK93lCzTzg+PAYFNpNd3PLD3QXfyhDyQw46N6qXFiBMr\nldhvhAHm0stVsde5G5XYYZ4bZ7yPkPeyYRdP65vuJgNG8Ff7UNECh7jH6dXWBNxN\nHsd7pId/RFJVFGHcybf1BkBv+y0EVzCSoMrgOcDWswzf9e+bgmpUCGbjI4VqvHKH\nZI2wy0iLAgMBAAECggEAMLGcKUEaQ/dwEwOWcap9x0k8HeloaTOGWXuAfzPhT6Tc\nbSt6+RAsu5aDBCInkMZEjRyZHJ7zyJp76gvNnGBUYfnPiBQDzdeRf4gupL1SUW49\nBef/RZZYysI2/zM6rWK3hP2KIXuAqbpYC3+iC8X/SLQwWNrY8Obqb56m7bcqdvhQ\nK7F8/PiZpBH+35qj1Y8jvE7z+H5iUpo/JSbFmyd7oIgho1h6CLZxPt7AlWL22Fqu\nuaZS6Inrg3M2ALzfUj+mUqBXZeLHs9DYFYahfPB3d0ZC6kW1jfmWv8jW8FQg+UjI\no5cusUZDeuyI82w/56+W6duZ6GmbUNBMDbvamEgqAQKBgQDKWopcDcxRPRT9tR5K\nGHo9sy2/3Y20DrgXjTzsbJRnvaFfRa3BsOcxWiKm2uclJosXRHr/o8tHJRzuLrG9\nl7YRedaWi10XhuQPRUZakvAjRCV2+mOweyqv6uvey5b3/SYHJQmf6SFrid+/42jJ\nmfv1JCQ/T9i/fpkAnKGrOQYvUwKBgQDJ3TMKcLiyGNQaqXCMq+vFYAIknA7G5fXZ\nOEf9mYBPGf1gCYmmMi68SMsOV2T93sNuTNyCzB2d7rwpUcGsoKXnB/4Cnhvt8WzV\njPtbQCEVfRhgrBcYWTxB4L0cgdfnCEvC3qRzWy3Gvn08MYcqqn3fxFbLXS4NrIB2\n24E99eQy6QKBgFUwzwU4Ted5xseVI95f9b7aG42mMc03USuhK6ABim0ueazJggCE\ngKDXaLVEfYG3e2FdVEch5yfZqRdhkzTVlTJAUCZrH9MS2BrRuG/TYsQGIZu4iJW5\nFNyhE5JltfZLnmHtpuKq3IYQsqFvlSMi799hytzYudDM9I88Yhfa1w6/AoGBAL00\nYmnPu53anbubw01muudWFMwhpcwRsLx3/yoY3WXG83E3n1gyQxHhnMmFarh1OnJB\nApJqJPxpzt1frwtRzA5etFvZvE3q8tq6eMJPunK8vMOnqUH+KfeJYVe98BKw+One\n6v7goGhfFVz9AzcfdDnvenbEkKzqWcKN/XaI6eo5AoGANIwhwNydz90N4XWQbdAc\ngH6Z9sUzrd/Ya3kfcqSpBwGTTvjFlEfEVLFR3nkwR2tFDfumjtfp29QWLCw4XLMf\ny6/gLc/nhcQEjsamueeL4E9gtWyc+3TcIqQCf13Iix9VNmOqHpx31SWJVo0Gm2Mc\n976O7iCardI322Rr6b/RowM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vscode@longleafgdrive.iam.gserviceaccount.com",
+  "client_id": "106838925292195194812",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vscode%40longleafgdrive.iam.gserviceaccount.com"
+}
