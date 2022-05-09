@@ -28,12 +28,12 @@ def firstSim(seqlength):
         f"{300 * time_units - 50 * time_units:.0f} gens",
         f"({(300 * time_units - 50 * time_units) / 2 / N} coalescence units)"
     )
-    return ts
+    return treeseq
 
 #ts = speciesTree(1, 10000)
 ts = firstSim(30 * 10**3)
-ts.write_fasta('/nas/longleaf/home/jsikder/schriderlab/test.fasta')
-with open('/nas/longleaf/home/jsikder/schriderlab/tree.draw') as outfile:
+ts.write_fasta('/nas/longleaf/home/jsikder/schriderlab/ignored/phylo1/oneintro.fasta')
+with open('/nas/longleaf/home/jsikder/schriderlab/ignored/phylo1/oneintro.draw') as outfile:
     outfile.write(ts.draw_text())
-with open('/nas/longleaf/home/jsikder/schriderlab/tree.stats') as outfile:
+with open('/nas/longleaf/home/jsikder/schriderlab/ignored/phylo1/oneintro.stats') as outfile:
     outfile.write(ts)
